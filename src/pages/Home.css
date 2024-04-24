@@ -1,0 +1,57 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    
+  }
+
+  
+  
+  .content {
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px; /* Increase font size */
+    line-height: 1.5; /* Increase line height for better readability */
+    color: #555; /* Dark gray text color */
+    margin-bottom: 20px; /* Add some bottom margin */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Buttons will stretch to fill container width */
+  }
+  
+  .create-account-button,
+  .login-button {
+    width: 100%; /* Make buttons fill the width of their container */
+    padding: 10px 20px; /* Add padding */
+    margin: 10px 0; /* Add margin */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Add cursor pointer */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .create-account-button {
+    background-color: #8a2be2; /* Violet color */
+    color: #fff; /* White text */
+  }
+  
+  .create-account-button:hover {
+    background-color: #9370db; /* Faint violet color on hover */
+  }
+  
+  .login-button {
+    background-color: #e6e6fa; /* Faint violet color */
+    color: #333; /* Darker text */
+  }
+  
+  .login-button:hover {
+    background-color: #d8bfd8; /* Lighter faint violet color on hover */
+  }
+  

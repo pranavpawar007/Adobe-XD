@@ -1,0 +1,37 @@
+
+
+.account-setting-container h2 {
+  margin-top: 0;
+}
+
+.account-setting-container div {
+  margin-bottom: 10px;
+}
+
+.account-setting-container strong {
+  margin-right: 5px;
+}
+
+.account-setting-container button {
+  padding: 10px;
+  background-color: #8a2be2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.account-setting-container button:hover {
+  background-color: #9370db;
+}
+
+.account-setting-container h2 {
+  margin-top: 0;
+  font-size: 32px; /* Increase font size */
+  color: #333; /* Dark color */
+  text-align: center; /* Center align the text */
+  padding-bottom: 20px; /* Add some space below the title */
+  border-bottom: 1px solid #ccc; /* Add a bottom border */
+}
+
